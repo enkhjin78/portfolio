@@ -1,31 +1,9 @@
-div-class{
+body{
 	padding:10px 28px;
 	font size:16px;
 	backround-color:black;
 	color:white;
 	border-radius: 2px solid transparent;
-}
-.home-pic img{
-    height: 100%;
-    width:100%;
-    transition: 0.5s;
-}
-.home-pic img:hover{
-    transform: scale(1.2);
-}
-.home-text{
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-}
-
-.home{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	gap:8rem;
-	backround-color:black;
-	font weight: 600;
 }
 .home-content h1{
 	font-size:6rem;
@@ -52,5 +30,26 @@ div-class{
 	font-weight:700;
 	line-height:8;
 }
-
-
+.logo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo i{
+    height: 45px;
+    width:45px;
+    background-color: #007ced;
+    border-radius: 50%;
+    color:#fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.logo .logo-text{
+    font-size: 24px;
+    font-weight: 500;
+    color:#fff;
