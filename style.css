@@ -12,6 +12,7 @@ contact{
 	align-items:center;
 	gap:8rem;
 	backround-color:black;
+	font weight: 600;
 }
 .home-content h1{
 	font-size:6rem;
