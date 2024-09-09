@@ -4,8 +4,21 @@ div-class{
 	backround-color:black;
 	color:white;
 	border-radius: 2px solid transparent;
-	border radius: 8px;
 }
+.home-pic img{
+    height: 100%;
+    width:100%;
+    transition: 0.5s;
+}
+.home-pic img:enkhjin{
+    transform: scale(1.2);
+}
+.home-text{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
 .home{
 	display:flex;
 	justify-content:center;
