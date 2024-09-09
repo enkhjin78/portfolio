@@ -10,7 +10,7 @@ div-class{
     width:100%;
     transition: 0.5s;
 }
-.home-pic img:enkhjin{
+.home-pic img:hover{
     transform: scale(1.2);
 }
 .home-text{
