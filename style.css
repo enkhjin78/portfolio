@@ -12,7 +12,7 @@ body{
 	gap:8rem;
 	backround-color:black;
 }
-.home-content h1{
+.home-content h1,h2,h3{
 	font-size:6rem;
 	font-weight:700;
 	line-height:1.3;
